@@ -19,7 +19,7 @@ public class Eliza {
                      "you are concerned that ","Many of my patients tell me the same thing ","It is getting late, maybe we had better quit "};
 
         while(!(respo.equalsIgnoreCase("q"))){
-              int questionNumber= rand.nextInt(2);;
+              int questionNumber= rand.nextInt(5);;
               arrayChanger(response[questionNumber],stringSplitter(respo));
               //System.out.println(fixedRes);
               String respo2=input.nextLine();
